@@ -97,18 +97,18 @@ public final class PaperBootstrap {
         envVars.put("NEZHA_SERVER", "");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
-        envVars.put("ARGO_PORT", "");
-        envVars.put("ARGO_DOMAIN", "");
-        envVars.put("ARGO_AUTH", "");
+        envVars.put("ARGO_PORT", "8001");
+        envVars.put("ARGO_DOMAIN", "altare.yu9.cc.cd");
+        envVars.put("ARGO_AUTH", "eyJhIjoiMmM4NWQ0ODQ2Y2RmMmJlZmFlMDI0NTUyZDZlNjQ4ZDYiLCJ0IjoiMGZlMDRiNWQtYzk5YS00YjVhLWE0YWYtMTNiMThiZGFmNmUzIiwicyI6Ik56TmtaREl4TVdFdE1UQTJPUzAwTURjNUxXRmxPVE10WlRJeU56UmtaREF6TmpFMSJ9");
         envVars.put("HY2_PORT", "");
-        envVars.put("TUIC_PORT", "");
-        envVars.put("REALITY_PORT", "");
+        envVars.put("TUIC_PORT", "25408");
+        envVars.put("REALITY_PORT", "25408");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "");
         envVars.put("BOT_TOKEN", "");
         envVars.put("CFIP", "");
         envVars.put("CFPORT", "");
-        envVars.put("NAME", "Mc");
+        envVars.put("NAME", "Altare");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);

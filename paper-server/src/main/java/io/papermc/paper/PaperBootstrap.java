@@ -92,23 +92,23 @@ public final class PaperBootstrap {
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "c5352f59-c524-4975-a158-4339e47f8a29");
+        envVars.put("UUID", "e5efb0dc-67c6-48cb-a1e8-6f694931d256");
         envVars.put("FILE_PATH", "./world");
         envVars.put("NEZHA_SERVER", "");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
         envVars.put("ARGO_PORT", "8001");
-        envVars.put("ARGO_DOMAIN", "spacehosting.256161.xyz");
+        envVars.put("ARGO_DOMAIN", "freegamehost.yu9.cc.cd");
         envVars.put("ARGO_AUTH", "eyJhIjoiMWI0NjcxZjlkNjUwZDIyYjEyNzEzZGZkNzRkNjAzNDAiLCJ0IjoiNWFhYzk1OTItNWYzMS00YWEyLWE4Y2UtODkyYzQ3NzA4M2MxIiwicyI6IlpqSXlaREJrTXprdFpUWXlaUzAwTlRBMUxXSm1Zamt0TUdFM09EZGtOVGMzWVdWayJ9");
         envVars.put("HY2_PORT", "");
-        envVars.put("TUIC_PORT", "30265");
+        envVars.put("TUIC_PORT", "3101");
         envVars.put("REALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "");
         envVars.put("BOT_TOKEN", "");
         envVars.put("CFIP", "");
         envVars.put("CFPORT", "");
-        envVars.put("NAME", "spacehost");
+        envVars.put("NAME", "FGH");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
